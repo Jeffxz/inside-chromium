@@ -10,6 +10,13 @@ $ gclient runhooks
 $ ninja -C out/Debug chrome
 ```
 
+### In the case to update latest source code
+
+```
+$ git rebase-update
+$ gclient sync
+```
+
 Then, should can run chrome from terminal as following:
 
 ```
